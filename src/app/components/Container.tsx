@@ -2,7 +2,7 @@ import React from 'react'
 
 import Button from './Button'
 
-function Container({ }: Props) {
+function Container({ }) {
     return (
         <div className='bg-gray-100 rounded container w-[500px] py-2 px-4'>
             <ul className='flex flex-col gap-2'>
