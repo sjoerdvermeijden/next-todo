@@ -10,41 +10,9 @@ function Container({ }) {
                     <div className='grow bg-white flex items-center px-2 rounded mr-2'>
                         <span className=''>Todo</span>
                     </div>
-                    <Button>Edit</Button>
-                    <Button>Completed</Button>
-                    <Button>Delete</Button>
-                </li>
-                <li className='flex'>
-                    <div className='grow bg-white flex items-center px-2 rounded mr-2'>
-                        <span className=''>Todo</span>
-                    </div>
-                    <Button>Edit</Button>
-                    <Button>Completed</Button>
-                    <Button>Delete</Button>
-                </li>
-                <li className='flex'>
-                    <div className='grow bg-white flex items-center px-2 rounded mr-2'>
-                        <span className=''>Todo</span>
-                    </div>
-                    <Button>Edit</Button>
-                    <Button>Completed</Button>
-                    <Button>Delete</Button>
-                </li>
-                <li className='flex'>
-                    <div className='grow bg-white flex items-center px-2 rounded mr-2'>
-                        <span className=''>Todo</span>
-                    </div>
-                    <Button>Edit</Button>
-                    <Button>Completed</Button>
-                    <Button>Delete</Button>
-                </li>
-                <li className='flex'>
-                    <div className='grow bg-white flex items-center px-2 rounded mr-2'>
-                        <span className=''>Todo</span>
-                    </div>
-                    <Button>Edit</Button>
-                    <Button>Completed</Button>
-                    <Button>Delete</Button>
+                    <Button className="mr-1 bg-grey-500">Edit</Button>
+                    <Button className="mr-1 bg-red-500">Completed</Button>
+                    <Button className="bg-purple-500">Delete</Button>
                 </li>
             </ul>
         </div>
