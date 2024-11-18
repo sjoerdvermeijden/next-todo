@@ -3,6 +3,7 @@ import Footer from './components/Footer'
 
 import Container from './components/Container'
 import Todos from './components/Todos'
+import TodoForm from './components/TodoForm'
 
 
 export default function Home() {
@@ -11,10 +12,7 @@ export default function Home() {
       <Header />
       <div className='flex flex-col items-center py-20'>
         <Container className='mb-2'>
-          <form action="" className='flex'>
-            <input type="text" name="" id="" className='grow rounded-l px-2' />
-            <input className='bg-slate-800 text-white py-1 px-2 rounded-r' type="submit" value="Add Todo" />
-          </form>
+          <TodoForm />
         </Container>
         <Container>
           <Todos />
